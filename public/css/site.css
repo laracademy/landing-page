@@ -1,0 +1,17 @@
+h1, h2, h3, h4 {
+    font-family: 'Lato', serif;
+}
+
+h1 {
+    font-size: 80px;
+    color: #9cd4d8;
+}
+
+.lead {
+    color: #799496;
+}
+
+.header {
+    padding: 128px 32px;
+    background-color: #1d3461;
+}
