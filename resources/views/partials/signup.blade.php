@@ -1,4 +1,4 @@
-<form action="#" method="POST" autocomplete="off">
+<form action="{{ route('signup') }}" method="POST" autocomplete="off">
     {!! csrf_field() !!}
 
     <div class="form-group">
