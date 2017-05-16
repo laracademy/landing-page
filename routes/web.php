@@ -13,4 +13,9 @@
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
+
+Route::post('sign-up')->uses('EmailController@store')->name('signup');
+
+Route::get('get-count')->uses('AdminController@getCount');
+Route::get('download')->uses('AdminController@download');
